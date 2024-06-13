@@ -56,7 +56,7 @@ public class Main {
         System.out.println("| No TNKB    | Nama Pemilik     | Jenis       | CC Kendaraan | Tahun | Bulan Harus Bayar |");
         System.out.println("=================================================================================================");
     
-        // Using class variables to access the vehicles
+
         System.out.printf("| %-11s| %-17s| %-12s| %-13d| %-6d| %-18d|\n",
                 kendaraan1.noTNKB, kendaraan1.nama, kendaraan1.jenis,
                 kendaraan1.cc, kendaraan1.tahun, kendaraan1.bulanHarusBayar);
